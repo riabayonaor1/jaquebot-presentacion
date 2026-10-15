@@ -1,0 +1,141 @@
+{
+  "project": "JaqueBot · sustentación inmersiva",
+  "verified_date": "2026-10-15",
+  "purpose": "Referencias visuales oficiales complementarias para explicar componentes del montaje. Fotografías de producto y medidas del fabricante; no son fotografías del ejemplar del colegio.",
+  "assets": [
+    {
+      "id": "raspberry-pi-5",
+      "label": "Raspberry Pi 5",
+      "file": "raspberry-pi-5-official.png",
+      "manufacturer": "Raspberry Pi Ltd",
+      "page_url": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+      "image_url": "https://assets.raspberrypi.com/static/8f6eca535dbb23a21eb41a748050e3a0/b0461/16gb.png",
+      "description": "Fotografía oficial del producto en vista de tres cuartos y fondo transparente. Referencia visual de la placa Raspberry Pi 5; no acredita la capacidad RAM instalada en el proyecto.",
+      "dimensions_mm": {
+        "board_length": 85,
+        "board_width": 56
+      },
+      "dimensions_source": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf",
+      "dimensions_source_description": "Dibujo mecánico oficial Raspberry Pi 5, una página; medidas nominales de referencia.",
+      "pixel_dimensions": [
+        400,
+        301
+      ],
+      "bytes": 49104,
+      "sha256": "a3fed227d00c7bc8ce07e67f442c2fd87adda87675823d9cecec5002acf53519",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "raspberry-pi-5-photo",
+      "label": "Raspberry Pi 5 · fotografía oficial",
+      "file": "raspberry-pi-5-photo.jpg",
+      "manufacturer": "Raspberry Pi Ltd",
+      "page_url": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
+      "image_url": "https://www.raspberrypi.com/app/uploads/2023/09/aa7841cb-421a-4000-8ab9-c77478a4f83b-1024x683.jpg",
+      "description": "Fotografía real publicada en el anuncio oficial de Raspberry Pi 5; fondo gris original, sin recortar.",
+      "pixel_dimensions": [
+        1024,
+        683
+      ],
+      "bytes": 91661,
+      "sha256": "b797cd558538f8fe84b67b10bb430811545056132b9b5d728b67b195e2ff5697",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "raspberry-pi-5-banner",
+      "label": "Raspberry Pi 5 · imagen promocional oficial",
+      "file": "raspberry-pi-5.png",
+      "manufacturer": "Raspberry Pi Ltd",
+      "page_url": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+      "image_url": "https://assets.raspberrypi.com/static/c671804c05a51efc4e3c2a1bdcbafbcf/e58b5/raspberry-pi-5.png",
+      "description": "Composición oficial con fotografía real de placa y adornos gráficos promocionales. La opción limpia para paneles es raspberry-pi-5-official.png.",
+      "pixel_dimensions": [
+        1515,
+        1240
+      ],
+      "bytes": 301643,
+      "sha256": "328bf630ffd2f8c10308aa8895cedf6b23fcd8ff45eff651f21175cde50a7ba5",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "raspberry-pi-ai-camera",
+      "label": "Raspberry Pi AI Camera · Sony IMX500",
+      "file": "raspberry-pi-ai-camera.png",
+      "manufacturer": "Raspberry Pi Ltd",
+      "page_url": "https://www.raspberrypi.com/products/ai-camera/",
+      "image_url": "https://assets.raspberrypi.com/static/d136a831b8ddc9383a2d8eb948e40e53/9e5df/banner.png",
+      "description": "Imagen oficial del módulo real con lente y cable flexible; composición promocional del fabricante.",
+      "dimensions_mm": {
+        "width": 25,
+        "height": 24,
+        "depth": 11.9
+      },
+      "dimensions_source": "https://www.raspberrypi.com/products/ai-camera/",
+      "mechanical_reference": "https://datasheets.raspberrypi.com/camera/ai-camera-product-brief.pdf",
+      "mechanical_reference_page": 4,
+      "sensor": "Sony IMX500",
+      "pixel_dimensions": [
+        400,
+        348
+      ],
+      "bytes": 28510,
+      "sha256": "17f473dade7b39b053bc14b5ee9797522596ab44177eb3ff9db1c4215885308f",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "raspberry-pi-ai-camera-detail",
+      "label": "Raspberry Pi AI Camera · fotografía de detalle",
+      "file": "raspberry-pi-ai-camera-detail.jpg",
+      "manufacturer": "Raspberry Pi Ltd",
+      "page_url": "https://www.raspberrypi.com/products/ai-camera/",
+      "image_url": "https://assets.raspberrypi.com/static/26a9727feff6f0844dd4be2ee0c37798/25b09/tech.jpg",
+      "description": "Fotografía oficial real del módulo de cámara IMX500 conectado a una Raspberry; conserva el fondo original.",
+      "pixel_dimensions": [
+        1200,
+        805
+      ],
+      "bytes": 87761,
+      "sha256": "a0a296bbe004ade8ecf033ddcf0f3dfb6b34c9865a1b5eb166ffcfbcdd915503",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "nucleo-f446re",
+      "label": "NUCLEO-F446RE · fotografía oficial de referencia Nucleo-64",
+      "file": "nucleo-f446re-official.jpg",
+      "manufacturer": "STMicroelectronics",
+      "page_url": "https://estore.st.com/en/nucleo-f446re-cpn.html",
+      "product_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html",
+      "image_url": "https://estore.st.com/media/catalog/product/p/f/pf262063_m_3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700",
+      "description": "Fotografía servida por la galería oficial del producto NUCLEO-F446RE. El fabricante utiliza una foto representativa de la familia Nucleo-64 con serigrafía F401RE visible; no es una fotografía del ejemplar instalado.",
+      "dimensions_mm": {
+        "board_width": 70,
+        "board_length_including_st_link": 82.5
+      },
+      "dimensions_source": "https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
+      "dimensions_verified_reference": "UM1724 Rev 14, agosto de 2020, figura 5, página 15; copia primaria ya existente en PCB JaqueBot R01/referencias/UM1724.pdf.",
+      "dimensions_verified_image": "nucleo64-mechanical-reference.png",
+      "pixel_dimensions": [
+        426,
+        426
+      ],
+      "bytes": 18611,
+      "sha256": "26c1c32815129cd5a1e0cf2d49abd81c7989a10698f4015acf5e2c9993061726",
+      "modifications": "Ninguna; descarga intacta del recurso oficial."
+    },
+    {
+      "id": "nucleo64-mechanical-reference",
+      "label": "ST · medidas de placa Nucleo-64 MB1136",
+      "file": "nucleo64-mechanical-reference.png",
+      "manufacturer": "STMicroelectronics",
+      "page_url": "https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
+      "description": "Página 15 de UM1724 Rev14, figura 5. Renderización directa del documento primario local; muestra la cota70,00×82,50mm. No se editó la figura.",
+      "origin": "Render de PDF oficial ya existente en el proyecto mediante Poppler.",
+      "pixel_dimensions": [
+        1273,
+        1800
+      ],
+      "bytes": 513007,
+      "sha256": "fd3d67c0e05403dd3fcaa67fd89115eb34a52957684f82a5259212d5bf8dfc09"
+    }
+  ]
+}
