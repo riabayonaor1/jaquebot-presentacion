@@ -21,14 +21,13 @@ export const chapters = [
     "title": "Del tablero\na la industria.",
     "kicker": "01 / EL RETO",
     "lead": "Imaginen una empresa que separa cajas de medicamentos según su etiqueta y destino. Un brazo adaptado podría recoger cada caja y llevarla al lugar indicado.",
-    "detail": "La idea es explorar cómo agilizar tareas y reducir el esfuerzo repetitivo. Como recuerda Tiempos modernos, de Chaplin, repetir un movimiento toda la jornada puede resultar agotador. Aquí lo demostramos con ajedrez.",
+    "detail": "Tiempos modernos, de Chaplin, muestra el desgaste de repetir movimientos. El ajedrez nos permite demostrar el principio.",
     "role": "Gestor de proyecto",
     "seconds": 35,
     "notes": "Imaginen una empresa que separa cajas de medicamentos por destino. Un brazo más grande podría llevar cada caja al lugar indicado por su etiqueta, agilizar el trabajo y reducir errores; tendríamos que comprobarlo. En Tiempos modernos, Charles Chaplin mostró lo agotador de repetir movimientos en una fábrica. Nos interesa reducir ese esfuerzo repetitivo de hombros y brazos. En el colegio elegimos el ajedrez para demostrar la idea de reconocer, decidir y trasladar.",
     "kind": "story",
     "tags": [
-      "Un ejemplo de aplicación",
-      "Reducir tareas repetitivas",
+      "Ejemplo de aplicación",
       "Adaptar y medir"
     ]
   },
