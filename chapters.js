@@ -5,10 +5,10 @@ export const chapters = [
     "title": "JaqueBot",
     "kicker": "11C · 2026 / PROTOTIPO TERMINADO",
     "lead": "Ajedrez que cobra movimiento.",
-    "detail": "Construimos un brazo robótico para mover objetos y explorar cómo agilizar tareas repetitivas. Dos apps y el ajedrez demuestran la idea.",
+    "detail": "Aplicamos Matemáticas y Sistemas para integrar visión artificial, inteligencia artificial y mecánica. Un brazo que mueve objetos, dos apps y el ajedrez como prueba.",
     "role": "Gestor de proyecto",
     "seconds": 15,
-    "notes": "Buenos días, jurados, docentes y compañeros. Somos JaqueBot, del grado once C de la Institución Educativa Carlos Julio Torrado Peñaranda, del Técnico en Sistemas Teleinformáticos. Nuestro objetivo fue desarrollar un brazo robótico para mover objetos y explorar cómo agilizar tareas repetitivas. Hoy presentamos el prototipo construido: Ajedrez que cobra movimiento.",
+    "notes": "Buenos días, jurados, docentes y compañeros. Somos JaqueBot, del grado once C de la Institución Educativa Carlos Julio Torrado Peñaranda, del Técnico en Sistemas Teleinformáticos. Nuestro objetivo fue aprender a integrar visión artificial, inteligencia artificial y mecánica, aplicando lo visto en Matemáticas y Sistemas para mover objetos con un brazo robótico. JaqueBot: Ajedrez que cobra movimiento.",
     "kind": "hero",
     "tags": [
       "Prototipo terminado",
@@ -35,16 +35,16 @@ export const chapters = [
     "id": "objetivos",
     "title": "Una decisión.\nUn movimiento.",
     "kicker": "02 / LO QUE CONSTRUIMOS",
-    "lead": "Integramos un brazo EduSCARA, visión del tablero, control electrónico y dos aplicaciones: JaqueBot manual y JaqueBot Ajedrez.",
-    "detail": "El objetivo fue unir percepción, cálculo y movimiento en un prototipo funcional. El ajedrez demuestra el traslado de piezas; la misma idea orienta una futura adaptación a otras tareas.",
+    "lead": "Partimos de EduSCARA, un diseño educativo, y creamos dos apps: una para probar el brazo y otra para jugar ajedrez.",
+    "detail": "Aplicamos programación, electrónica y conexiones aprendidas en Sistemas y en cursos previos de Arduino. En JaqueBot usamos STM32. Las coordenadas y los ángulos de Matemáticas se convierten en movimiento.",
     "role": "Gestor de proyecto",
     "seconds": 30,
-    "notes": "Para demostrar esa idea usamos EduSCARA, un diseño educativo publicado, y construimos el prototipo. Creamos una aplicación para probar el brazo y otra para jugar ajedrez. El recorrido es sencillo: la cámara observa, el programa interpreta, la placa recibe instrucciones y los motores actúan. Después se revisa el resultado. Las pruebas requieren supervisión.",
+    "notes": "Usamos EduSCARA, un diseño educativo publicado, y construimos el brazo y dos aplicaciones. Unimos matemáticas y geometría con Sistemas: programación, electrónica y conexiones practicadas antes en cursos de Arduino. En JaqueBot aplicamos esas bases con la placa STM32. Relacionamos una imagen con una posición y con el giro de los motores: la cámara observa, el programa interpreta y el brazo actúa.",
     "kind": "story",
     "tags": [
-      "Percibir",
-      "Decidir",
-      "Ejecutar"
+      "Matemáticas y Sistemas",
+      "Visión + IA + mecánica",
+      "Geometría en movimiento"
     ]
   },
   {
@@ -68,10 +68,10 @@ export const chapters = [
     "title": "Dos eslabones.\nUn espacio de trabajo.",
     "kicker": "04 / MECÁNICA Y SENSORES",
     "lead": "Los servomotores son motores que giran hasta una posición indicada. Mueven la base y el codo para llevar la herramienta al lugar elegido.",
-    "detail": "Los potenciómetros son sensores cuya señal cambia al girar. Los usamos para comparar la posición esperada con la que indica el montaje.",
+    "detail": "X e Y ubican el extremo sobre el tablero; los grados indican cuánto gira una articulación. Los potenciómetros son sensores que aportan información para comprobar esa posición.",
     "role": "Hardware · primer aprendiz",
     "seconds": 55,
-    "notes": "Esta es la parte que produce el movimiento. La base gira y el codo cambia la posición del extremo, de forma parecida a nuestro brazo. Usamos servomotores: motores que reciben la orden de girar hasta una posición determinada. Es como una puerta que debe abrirse hasta cierto ángulo: necesitamos que alcance una posición, no que dé vueltas sin parar. Los engranajes transmiten ese movimiento y los tornillos sujetan el conjunto. Los potenciómetros son como perillas que cambian una señal al girar; los usamos como sensores, es decir, para obtener información de la posición. El programa interpreta esa señal para estimar cuánto giraron la base y el codo. Los usamos para comparar la posición esperada con la leída. Una pieza floja puede afectar esa precisión, aunque el programa esté bien escrito.",
+    "notes": "La base gira y el codo cambia la posición del extremo, como nuestro brazo. Usamos servomotores: motores que reciben la orden de alcanzar una posición, como una puerta que se abre hasta un ángulo. Los potenciómetros funcionan como sensores: su señal cambia al girar, como una perilla. Nos permiten estimar la posición y compararla con la esperada. Los engranajes transmiten movimiento y los tornillos sujetan el conjunto. También usamos matemáticas: X e Y indican dónde está el extremo sobre el tablero; los grados describen cuánto gira una articulación. Un cuarto de vuelta son noventa grados, como el ángulo de la esquina de un cuaderno. Así vemos la geometría convertirse en movimiento.",
     "kind": "architecture",
     "tags": [
       "Servomotores · movimiento",
@@ -103,7 +103,7 @@ export const chapters = [
     "detail": "ArUco son etiquetas cuadradas que identifican las piezas. OpenCV es el conjunto de herramientas que las reconoce en la imagen. Calibrar permite relacionar imagen, casilla y brazo.",
     "role": "Hardware · segundo aprendiz",
     "seconds": 55,
-    "notes": "La Raspberry Pi es una computadora pequeña que organiza el trabajo: ejecuta las aplicaciones, recibe la imagen y coordina lo que debe ocurrir. La cámara es una Raspberry Pi AI Camera con sensor Sony. Su función aquí es fotografiar el tablero; no decide la jugada. Sobre las piezas hay etiquetas ArUco: pequeños dibujos cuadrados con una identidad distinta, como una etiqueta con el nombre de cada pieza. Los elegimos para distinguir las piezas con más claridad. OpenCV es un conjunto de herramientas para analizar imágenes; lo usamos para reconocer esas etiquetas y ubicarlas. Antes debemos calibrar: enseñar la relación entre lo que aparece en la imagen, las casillas y los lugares que alcanza el brazo. Si movemos cámara o tablero, revisamos esa relación.",
+    "notes": "La Raspberry Pi es una computadora pequeña: organiza las aplicaciones y recibe imágenes de la Raspberry Pi AI Camera con sensor Sony. Usamos visión artificial: programas que extraen información de una imagen. Aquí reconocen las etiquetas ArUco, dibujos cuadrados con una identidad para cada pieza. OpenCV es el conjunto de herramientas que usamos para analizarlas. No es una cámara que entiende todo sola. Debemos calibrar: relacionar la imagen, las casillas y los lugares que alcanza el brazo. Aprendimos que importan la luz, las etiquetas visibles y la posición de cámara y tablero. Si algo cambia, revisamos las referencias antes de seguir.",
     "kind": "vision",
     "tags": [
       "Computadora + cámara",
@@ -244,10 +244,10 @@ export const chapters = [
     "title": "JaqueBot",
     "kicker": "15 / DEL PROTOTIPO A NUEVAS POSIBILIDADES",
     "lead": "Ajedrez que cobra movimiento.",
-    "detail": "Aprendimos a ensamblar, programar y trabajar en equipo; también a comprobar las soluciones por partes. Ahora mostramos los tres minutos del proceso.",
+    "detail": "Llevamos a la práctica Matemáticas, Sistemas y los cursos previos: coordenadas, ángulos, conexiones y programación. Aprendimos a construir, comprobar y trabajar en equipo. Ahora mostramos el proceso.",
     "role": "Maquetador y Gestor de proyecto",
     "seconds": 10,
-    "notes": "Aprendimos a ensamblar, programar y repartir tareas. También a medir antes de suponer y probar por partes para encontrar errores. Entendimos que diseño, conexiones y programa deben trabajar juntos.\n\nGestor de proyecto, 11:55 a 12:00: Veamos en tres minutos cómo construimos y probamos JaqueBot.",
+    "notes": "Aplicamos Matemáticas y Sistemas: coordenadas, ángulos, programación y conexiones aprendidas en los cursos de Arduino. Aprendimos a cuidar la luz y las etiquetas, repartir tareas y comprobar cada parte del robot.\n\nGestor de proyecto, 11:55 a 12:00: Veamos en tres minutos cómo construimos y probamos JaqueBot.",
     "kind": "closing",
     "tags": [
       "12 min · exposición y demo",
@@ -260,7 +260,7 @@ export const chapters = [
 export const questions = [
   {
     "question": "¿Cuál es el objetivo principal?",
-    "answer": "Desarrollar un brazo que permita explorar tareas de mover objetos y una futura clasificación. Lo construimos y usamos el ajedrez para demostrar cómo reconocer una pieza, decidir un destino y trasladarla. El ejemplo de cajas de medicamentos ayuda a imaginar otra escala; no significa que ya clasifiquemos productos en una empresa."
+    "answer": "Aprender a integrar visión artificial, inteligencia artificial y mecánica, aplicando Matemáticas, geometría y Sistemas. Los cursos previos de Arduino nos dieron bases de programación, electrónica y conexiones; en JaqueBot las aplicamos con STM32. Usamos el ajedrez para relacionar una imagen, una decisión y un movimiento. La aplicación industrial es una posibilidad que requiere adaptación y pruebas."
   },
   {
     "question": "¿Qué hace cada componente en una frase?",
@@ -308,11 +308,11 @@ export const questions = [
   },
   {
     "question": "¿Qué aprendieron como equipo?",
-    "answer": "A repartir responsabilidades, fabricar y ensamblar, conectar componentes, describir problemas y comprobar soluciones. Aprendimos que un fallo puede venir del programa, de una conexión o de una pieza física, y que conviene revisar por partes."
+    "answer": "A aplicar Matemáticas y Sistemas al robot: relacionar imágenes, coordenadas, ángulos y movimiento; usar bases de programación, electrónica y conexiones practicadas en los cursos de Arduino; y reconocer cómo influyen la luz y las etiquetas. La placa del proyecto es STM32. También aprendimos a repartir tareas, probar por partes y comprobar los cambios propuestos por Codex."
   },
   {
     "question": "¿El prototipo puede trabajar sin supervisión?",
-    "answer": "El programa calcula y coordina una secuencia, pero las pruebas requieren supervisión por el agarre, la cercanía de las piezas y las referencias que se comprueban a mano. No lo presentamos como un equipo industrial autónomo certificado."
+    "answer": "El programa calcula y coordina una secuencia, pero las pruebas requieren supervisión por el agarre, la cercanía de las piezas y las referencias que se comprueban a mano."
   },
   {
     "question": "¿Por qué necesitan un electroimán?",
